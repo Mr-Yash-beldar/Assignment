@@ -1,8 +1,10 @@
-import React from "react";
+import { vi, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, it, expect } from "vitest";
+import { describe, it } from "vitest";
 import { DataTable, Column } from "./";
+
+import "@testing-library/jest-dom";
 
 interface Item {
   id: number;
