@@ -169,7 +169,7 @@ interface Column<T> {
 
 ## 📸 Preview
 
-- screenshot here
+![- screenshot here](screenshot/image.png)
 
 ---
 
